@@ -1,0 +1,26 @@
+# Môi trường ảo 
+.venv/
+venv
+env/
+ENV/
+
+# Tệp cache tự động sinh ra của python
+__pycache__/
+*.pyc
+*.pyo 
+*.pyd 
+.pytest_cache/
+
+# Cấu hình riêng của trình soạn thảo (VS Code, PyCharm) 
+.vscode/ 
+.idea/
+
+# Cấu hình và kho lưu trữ bí mật của Streamlit 
+.streamlit/secrets.toml 
+
+# Các tệp rác của hệ điều hành (Windows, macOS) 
+.DS\_Store Thumbs.db 
+# Dữ liệu kết quả xuất ra (tránh đẩy các video/ảnh đã xử lý quá nặng lên GitHub) 
+data/sample_outputs/ 
+*.mp4 
+*.avi
