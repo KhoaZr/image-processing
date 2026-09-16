@@ -8,7 +8,7 @@ from views.project1_view import render_project1_page
 # ============================================================
 
 st.set_page_config(
-    page_title="Xử lý ảnh số - Chủ đề 7",
+    page_title="Xử lý ảnh - Chủ đề 7 - Nhóm 14",
     page_icon="",
     layout="wide",
     # Hiển thị dạng khung rộng để so sánh ảnh song song
@@ -22,8 +22,16 @@ def main():
     # 2. THANH ĐIỀU HƯỚNG SIDEBAR
     # ========================================================
 
-    st.sidebar.title("Xử lý ảnh số")
+    st.sidebar.title("Xử lý ảnh")
     st.sidebar.subheader("Bài tiểu luận - Chủ đề 7")
+    st.sidebar.markdown("---")
+    
+    st.sidebar.markdown(
+    "**Thành viên:**<br>"
+    "• 24651191 - Dương Công Khoa<br>"
+    "• 24719721 - Nguyễn Văn Đức",
+    unsafe_allow_html=True
+)
 
     st.sidebar.markdown("---")
 
@@ -39,14 +47,7 @@ def main():
         ],
     )
 
-    st.sidebar.markdown("---")
-
-    st.sidebar.info(
-        "**Thông tin công nghệ:**\n"
-        "• Framework: Streamlit Web\n"
-        "• Thư viện lõi: OpenCV & NumPy\n"
-        "• Xử lý: Ảnh tĩnh & Video"
-    )
+    
 
     # ========================================================
     # 4. ĐIỀU HƯỚNG HIỂN THỊ MÀN HÌNH

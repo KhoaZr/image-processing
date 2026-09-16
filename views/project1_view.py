@@ -6,9 +6,9 @@ import os
 
 from core.edge_detection import (
     apply_sobel,
-    # apply_prewitt,
-    # apply_roberts,
-    # apply_laplacian,
+    apply_prewitt,
+    apply_roberts,
+    apply_laplacian,
 )
 
 from views.components import (
